@@ -17,6 +17,23 @@
     └── projects                    # プロジェクトレポジトリ格納用ディレクトリ
 ```
 
+## .envの設定
+Dockerコンテナビルド時に.envにMySQLとPHPMyAdmin用の設定をする必要がある。<br>
+以下のコマンドから.env.sampleをコピーして、適宜内容を編集する。
+```bash
+cp .env.sample .env
+```
+
+### .envの設定項目
+```
+ROOT_PASS=root          # MySQLのrootユーザーのパスワード
+DB_NAME=tems-db         # MySQLのデータベース名
+DB_USER=tems            # MySQLに追加するユーザー名
+DB_PASS=tems            # MySQLに追加するユーザーのパスワード
+PMA_USER=tems           # PHPMyAdminのユーザー名
+PMA_PASSWORD=tems       # PHPMyAdminのパスワード
+```
+
 ## 開発環境構築手順
 
 **1. プラットフォームレポジトリをクローン**<br>
