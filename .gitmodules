@@ -1,0 +1,4 @@
+[submodule "node/projects"]
+	path = node/projects
+	url = https://github.com/tomo3101/train-event-manage-system.git
+	branch = develop
