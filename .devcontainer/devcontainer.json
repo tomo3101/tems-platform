@@ -22,7 +22,11 @@
 			"extensions": [
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
-				"YoavBls.pretty-ts-errors"
+				"YoavBls.pretty-ts-errors",
+				"rphlmr.vscode-drizzle-orm",
+				"mhutchie.git-graph",
+				"eamodio.gitlens",
+				"bradlc.vscode-tailwindcss"
 			]
 		}
 	}
