@@ -34,7 +34,7 @@ services:
   web:
     container_name: web
     build:
-      context: ./node/projects/train-event-manage-system
+      context: ./node/projects/tems
       dockerfile: ./apps/web/Dockerfile
     restart: always
     depends_on:
@@ -47,7 +47,7 @@ services:
   api:
     container_name: api
     build:
-      context: ./node/projects/train-event-manage-system
+      context: ./node/projects/tems
       dockerfile: ./apps/api/Dockerfile
     restart: always
     depends_on:

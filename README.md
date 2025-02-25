@@ -1,7 +1,7 @@
 # TEMS Platform
 
 ## 概要
-[Train Event Manage System(TEMS)](https://github.com/tomo3101/train-event-manage-system)のプラットフォームレポジトリです。
+[Train model Event Management System(TEMS)](https://github.com/tomo3101/tems)のプラットフォームレポジトリです。
 
 ## ファイル構成
 ```

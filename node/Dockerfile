@@ -16,4 +16,4 @@ RUN apk add --no-cache git openssh
 # Clone the repository
 WORKDIR /workspace
 COPY .gitconfig /root
-RUN git clone https://github.com/tomo3101/train-event-manage-system.git
+RUN git clone https://github.com/tomo3101/tems.git
